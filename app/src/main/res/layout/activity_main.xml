@@ -8,11 +8,12 @@
     tools:context="cn.john.sy1027.MainActivity">
 
    <ListView
+       android:divider="@null"
       android:transcriptMode="alwaysScroll"
        android:id="@+id/chatListLv"
        android:layout_width="match_parent"
        android:layout_height="0dp"
-       android:layout_weight="1">
+       android:layout_weight="1" >
 
    </ListView>
    <LinearLayout
